@@ -93,10 +93,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
+    <Content Include="Holiday.aspx" />
+    <Content Include="Images\396901.jpg" />
+    <Content Include="Images\61WtfM-LxqL._AC_SL1001_.jpg" />
     <Content Include="Images\bootique-featured-coupon-092621.jfif" />
+    <Content Include="Images\Dog-Cat-Critter-Party-Baloons-Web.jpg" />
     <Content Include="Images\DOG.png" />
     <Content Include="Images\download-removebg-preview %281%29.png" />
+    <Content Include="Images\easter-bunny-origins-1581358909.jpg" />
     <Content Include="Images\Petco-Promo-Card-01.06.20.jpg" />
+    <Content Include="Images\pumpkin-pooch-costume-for-dogs-zack-zoey-1-removebg-preview.png" />
+    <Content Include="Images\Thanksgiving.jpeg" />
+    <Content Include="Pets.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -105,6 +113,13 @@
     </Compile>
     <Compile Include="Default.aspx.vb">
       <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Holiday.aspx.designer.vb">
+      <DependentUpon>Holiday.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Holiday.aspx.vb">
+      <DependentUpon>Holiday.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Main.Master.designer.vb">
@@ -132,6 +147,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Pets.aspx.designer.vb">
+      <DependentUpon>Pets.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pets.aspx.vb">
+      <DependentUpon>Pets.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
