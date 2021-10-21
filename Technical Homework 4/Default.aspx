@@ -21,12 +21,10 @@
             margin-right: 15%;
         }
         #cols{
-            margin-left:8%;
+            margin-left:15%;
             margin-bottom: 5%;
         }
-        .cols{
-            margin-left:15%;
-        }
+        
 
     </style>
     <div class="d-flex justify-content-center">
